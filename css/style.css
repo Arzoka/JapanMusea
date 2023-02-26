@@ -186,7 +186,7 @@ form{
     min-height:40rem;
     display: flex;
     justify-content: flex-start;
-    flex-direction: column;
+    flex-direction: column;;
     padding: 4rem;
     font-size: 3rem;
     gap:2rem;
@@ -195,7 +195,9 @@ form{
 }
 
 form label{
+    text-align: center;
     border-bottom: 2px solid #000000;
+    font-size: 2rem;
 }
 form div{
     display:flex;
@@ -204,11 +206,12 @@ form div{
 }
 
 input{
+    align-self: center;
     display: block;
     width: 30ch;
     padding: 1rem 2rem;
     font-size: 1.6rem;
-    border:1px solid black;
+    border:1px solid #EEEEEE;
     background: #EEEEEE;
 }
 
@@ -216,7 +219,7 @@ textarea{
     height: 35ch;
     width:100%;
     font-size: 1.6rem;
-    border:1px solid black;
+    border:1px solid #EEEEEE;
     font-family: sans-serif;
     padding: 1rem 2rem;
     resize: none;
@@ -224,7 +227,7 @@ textarea{
 }
 
 .submit{
-    background: #3c0000;
+    background: #000000;
     color: #EEEEEE;
     font-size: 1.6rem;
     border:none;
